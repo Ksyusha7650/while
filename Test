@@ -1,0 +1,19 @@
+public class Test {
+    public static void main(String[] args) {
+        Cat cat1 = new Cat();
+        cat1.name = "Парамон";
+        cat1.colour = "Белый";
+        cat1.age = 3.5;
+        cat1.weight = 1;
+        cat1.energy = 100;
+        cat1.hp = 100;
+        cat1.mood = 0;
+        System.out.println(cat1.showDescription());
+        cat1.eat("Sweet");
+        System.out.println(cat1.meow());
+        cat1.sleep();
+        cat1.run();
+        System.out.println(cat1.showName("m"));
+        System.out.println(cat1.showDescription());
+    }
+}
